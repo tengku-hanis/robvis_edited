@@ -1,8 +1,8 @@
 # robvis_edited
-This repo contains edited rob_traffic_light function from robvis package for Quadas-2 tools. So, both main domains are included in the plot:     
+This repo contains edited rob_traffic_light function from [robvis](https://github.com/mcguinlu/robvis) package for [Quadas-2](https://www.bristol.ac.uk/population-health-sciences/projects/quadas/quadas-2/) tools. So, both main domains are included in the plot:     
 
-a) risk of bias    
-b) applicability concerns 
+a) Risk of bias    
+b) Applicability concerns 
 
 How to use?   
 Load robvis package, then source the R file from this repo.
