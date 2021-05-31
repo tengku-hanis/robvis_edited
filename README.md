@@ -3,3 +3,6 @@ This repo contains edited rob_traffic_light function from robvis package for Qua
 
 a) risk of bias    
 b) applicability concerns 
+
+How to use?
+load robvis package, then source the R file in this repo.
