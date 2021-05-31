@@ -15,7 +15,7 @@ library(tidyverse)
 # Source the R file
 devtools::source_url("https://raw.githubusercontent.com/tengku-hanis/robvis_edited/main/rob_traffic_light_edited.R")
 
-# Edited quadas data from robvis
+# Edit quadas data from robvis
 data_quadas2 <- data_quadas %>% 
   mutate(D1b = D1,
          D2b = D2, 
