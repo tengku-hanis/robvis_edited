@@ -5,14 +5,17 @@ a) risk of bias
 b) applicability concerns 
 
 How to use?   
-Load robvis package, then source the R file in this repo.
+Load robvis package, then source the R file from this repo.
 
 ```Example
+# Load packages
 library(robvis)
 library(tidyverse)
 
+# Source the R file
 devtools::source_url("https://raw.githubusercontent.com/tengku-hanis/robvis_edited/main/rob_traffic_light_edited.R")
 
+# Edited quadas data from robvis
 data_quadas2 <- data_quadas %>% 
   mutate(D1b = D1,
          D2b = D2, 
@@ -26,5 +29,6 @@ data_quadas2 <- data_quadas %>%
          )
 data_quadas2  
 
+# Run edited function
 rob_traffic_light2(data_quadas2, tool = "QUADAS-2")
 ```
