@@ -17,16 +17,15 @@ devtools::source_url("https://raw.githubusercontent.com/tengku-hanis/robvis_edit
 
 # Edit quadas data from robvis
 data_quadas2 <- data_quadas %>% 
-  mutate(D1b = D1,
-         D2b = D2, 
-         D3b = D3, 
+  mutate("B-D1" = D1,
+         "B-D2" = D2, 
+         "B-D3" = D3, 
          .after = D4) %>% 
   select(1:9) %>% 
-  rename(D1a = 2,
-         D2a = 3,
-         D3a = 4,
-         D4 = 5,
-         )
+  rename("A-D1" = 2,
+         "A-D2" = 3,
+         "A-D3" = 4,
+         "A-D4" = 5)
 data_quadas2  
 
 # Run edited function

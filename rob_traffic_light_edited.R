@@ -361,7 +361,7 @@ rob_traffic_light_quadas3 <- function(data,
                                       overall) {
   
   max_domain_column <- 9
-  domain_names <- c("Study", "D1a", "D2a", "D3a", "D4", "D1b", "D2b", "D3b", "Overall")
+  domain_names <- c("Study", "A-D1", "A-D2", "A-D3", "A-D4", "B-D1", "B-D2", "B-D3", "Overall")
   
   rob.tidy <- tidy_data(data,
                         max_domain_column = max_domain_column,
@@ -386,15 +386,15 @@ rob_traffic_light_quadas3 <- function(data,
     ggplot2::labs(
       caption = "  Domains:
   a) Risk of bias:
-  D1a: Patient selection.
-  D2a: Index test.
-  D3a: Reference standard.
-  D4: Flow & timing.
+  A-D1: Patient selection.
+  A-D2: Index test.
+  A-D3: Reference standard.
+  A-D4: Flow & timing.
   
   b) Applicability concerns:
-  D1b: Patient selection.
-  D2b: Index test.
-  D3b: Reference standard. 
+  B-D1: Patient selection.
+  B-D2: Index test.
+  B-D3: Reference standard. 
 
 
                   "
